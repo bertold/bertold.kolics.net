@@ -22,6 +22,9 @@ deploy:
     secure: Npfs3Aqx+zXyP59rho1O3EZ5pvucbvwQUZpCWTHPqEwUQvwUtxquT+GyRxlndhJXMVkH+nz7eGlwucogQOGlooe1znAbmoeSoMVX5EgT8Q0V2HIBJbhX2+q5BlDIMm2bN1Q9pJQByA6OOZRNiYAbvdwfW13dpaiYZV+Lo2WWSj6vSA8V/81zoyrbORu3DxL2L5ZGqLktvKFBZp4oWJGeGTFlmeJbFE7xhwpNJH1e8FRaIiuI61rD7bWAeNLtyvAl3VfCbO8k/z/GGdOvUB1RthP9ja7AAi9XGacYK8ZnX+09m9BvpV309ZczlfPNL104T7Db37+OkLviNmNO3X1LdZZC/B/InetrfdVmiIQ9Zjj2t23SeT11uheMxgjoLaNcu73UcE5kvmx/9SLLuGg5dgPekIg9Zw60FAp1P0nzNI6wUuASa8hbAQPP3F2uhLbIV7AX2/f7foiGCY6pcv0glLNLuOQSLNbpsC0/PMDJfUbCorZR+DY5M8Eomsumn7ys/ZXCf7ZHtINQROEqy1RdpyhGtMdmgpotSg0TZfnOyP6nRNYqVAC/jY75clKnqbMvhEEh0SSN3ivJUpm861C1Mduf6fjGJs8s5R/iYx7nMJfSU+2VCHpIF/8tH5e2An1UBXz2b93ygvTQMuaMkag63wR904uQnmpfJxaiFFSoupY=
   bucket: s3://bertold.kolics.net/
   local-dir: _site
-  acl: public_read
+  upload-dir: travis-builds
+  acl: public_rea
+  skip_cleanup: true
+  region: us-east-1
   on:
     repo: bertold/bertold.kolics.net
