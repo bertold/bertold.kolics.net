@@ -56,5 +56,5 @@ comments:
       width: 580
       colorscheme: light
       
- exclude: [vendor]
+exclude: [vendor]
  
