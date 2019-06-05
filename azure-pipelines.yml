@@ -28,15 +28,7 @@ steps:
 - script: bundle exec htmlproofer ./_site --disable-external
   displayName: 'executing htmlproofer'
 
-- script: |
-    deployment_event=`curl -s 'https://api.mabl.com/events/deployment' -u 'key:$(key)' -H 'Content-Type:application/json' -d '{"environment_id":"$(environment_id)","application_id":"$(application_id)"}'`
-    status_code=`echo ${deployment_event} | jq -r '.code'`
-    if [ "${status_code}" != "200" ]; then
-      echo "Deployment failed with ${status_code}" 1>&2
-      return 1
-    fi
-    event_id=`echo ${deployment_event} | jq -r '.id'`
-    echo '##vso[task.setvariable variable=event_id]${event_id}'
+- script: curl -s 'https://api.mabl.com/events/deployment' -u 'key:$(key)' -H 'Content-Type:application/json' -d '{"environment_id":"$(environment_id)","application_id":"$(application_id)"}'`
   displayName: 'triggering run in mabl'
 
   
