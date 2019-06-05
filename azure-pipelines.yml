@@ -25,3 +25,6 @@ steps:
 - script: bundle exec htmlproofer ./_site --disable-external
   displayName: 'executing htmlproofer'
 
+- script: curl -s 'https://api.mabl.com/events/deployment' -u 'key:${key}' -H 'Content-Type:application/json' -d '{"environment_id":"${environment_id}","application_id":"${application_id}"}'
+  displayName: 'triggering run in mabl'
+  
