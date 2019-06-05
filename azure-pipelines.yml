@@ -19,5 +19,9 @@ steps:
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
-- script: ./script/ci-build
-  displayName: 'invoking ci-build'
+- script: bundle exec jekyll build
+  displayName: 'executing jekyll build'
+
+- script: bundle exec htmlproofer ./_site --disable-external
+  displayName: 'executing htmlproofer'
+
