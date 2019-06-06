@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 MABL_API_BASE="https://api.mabl.com"
 POLL_SEC=10
@@ -10,7 +10,6 @@ fi
 
 API_KEY="$1"
 ENV_ID="$2"
-TMP_FILE=`mktemp`
 
 # Create a deployment event, and retrieve its ID:
 deployment_event=`curl -s "${MABL_API_BASE}/events/deployment" -u "key:${API_KEY}" -H 'Content-Type:application/json' -d "{\"environment_id\":\"${ENV_ID}\"}"`
@@ -39,8 +38,7 @@ done
 # Print summary:
 echo
 echo "Full Results:"
-echo ${results} > ${TMP_FILE}
-jq < ${TMP_FILE}
+echo ${results}
 echo
 if [ "${failed_plans}" -gt "0" ]; then
   echo "${failed_plans} plans failed!"
@@ -49,4 +47,3 @@ else
 fi
 echo
 
-rm -f ${TMP_FILE}
