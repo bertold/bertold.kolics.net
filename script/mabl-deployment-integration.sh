@@ -38,6 +38,7 @@ done
 # Print summary:
 echo
 echo "Full Results:"
+echo ${results}
 echo ${results} | jq
 echo
 if [ "${failed_plans}" -gt "0" ]; then
