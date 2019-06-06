@@ -22,7 +22,7 @@ steps:
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
-- script: $(Build.Repository.LocalPath)/script/cibuildbundle exec jekyll build
+- script: $(Build.Repository.LocalPath)/script/cibuild
   displayName: 'executing CI build'
 
 - script: curl -s 'https://api.mabl.com/events/deployment' -u 'key:$(key)' -H 'Content-Type:application/json' -d '{"environment_id":"$(environment_id)","application_id":"$(application_id)"}'`
