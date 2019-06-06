@@ -10,6 +10,7 @@ fi
 
 API_KEY="$1"
 ENV_ID="$2"
+TMP_FILE=`mktemp`
 
 # Create a deployment event, and retrieve its ID:
 deployment_event=`curl -s "${MABL_API_BASE}/events/deployment" -u "key:${API_KEY}" -H 'Content-Type:application/json' -d "{\"environment_id\":\"${ENV_ID}\"}"`
@@ -38,7 +39,8 @@ done
 # Print summary:
 echo
 echo "Full Results:"
-echo ${results} | jq
+echo ${results} > ${TMP_FILE}
+cat ${TMP_FILE} | jq
 echo
 if [ "${failed_plans}" -gt "0" ]; then
   echo "${failed_plans} plans failed!"
@@ -46,3 +48,5 @@ else
   echo "All plans passed."
 fi
 echo
+
+rm -f ${TMP_FILE}
