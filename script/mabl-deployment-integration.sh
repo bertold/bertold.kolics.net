@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 MABL_API_BASE="https://api.mabl.com"
 POLL_SEC=10
