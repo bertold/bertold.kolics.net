@@ -40,7 +40,7 @@ done
 echo
 echo "Full Results:"
 echo ${results} > ${TMP_FILE}
-cat ${TMP_FILE} | jq
+jq < ${TMP_FILE}
 echo
 if [ "${failed_plans}" -gt "0" ]; then
   echo "${failed_plans} plans failed!"
