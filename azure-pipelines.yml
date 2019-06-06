@@ -25,7 +25,7 @@ steps:
 - script: $(Build.Repository.LocalPath)/script/cibuild
   displayName: 'executing CI build'
 
-- script: curl -s 'https://api.mabl.com/events/deployment' -u 'key:$(key)' -H 'Content-Type:application/json' -d '{"environment_id":"$(environment_id)","application_id":"$(application_id)"}'`
-  displayName: 'triggering run in mabl'
+- script: $(Build.Repository.LocalPath)/script/mabl-deployment-integration.sh $(key) $(environment_id)
+  displayName: 'executing test in mabl'
 
   
