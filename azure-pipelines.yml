@@ -3,6 +3,9 @@
 # Add steps that install rails, analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/ruby
 
+variables:
+- group: mabl-settings
+
 trigger:
 - master
 
@@ -19,5 +22,10 @@ steps:
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
-- script: ./script/ci-build
-  displayName: 'invoking ci-build'
+- script: $(Build.Repository.LocalPath)/script/cibuild
+  displayName: 'executing CI build'
+
+- script: curl -s 'https://api.mabl.com/events/deployment' -u 'key:$(key)' -H 'Content-Type:application/json' -d '{"environment_id":"$(environment_id)","application_id":"$(application_id)"}'`
+  displayName: 'triggering run in mabl'
+
+  
