@@ -10,7 +10,7 @@ I am an engineer at heart who enjoys solving both technical non-technical proble
 
 ## Contact
 
-[Phone] \| [LinkedIn] \| [Twitter]
+[Phone] \| [LinkedIn] \| [Twitter] \| {% include contact.html %}
 
 [Phone]: tel:+15122263605
 [Twitter]: https://twitter.com/bkolics
