@@ -8,12 +8,15 @@ permalink: /
 
 I am an engineer at heart who enjoys solving both technical non-technical problems. I am a true believer of servant leadership and work hard to create an atmosphere where engineers can strive and prosper. My career so far has allowed me to work in different software roles (test, development, management) in identity and access management, in healthcare as well as in legal document discovery.
 
-## Contact
+## Social Media
 
-[Phone] \| [LinkedIn] \| [Twitter] \| {% include contact.html %}
+[LinkedIn] \| [Twitter]
 
-[Phone]: tel:+15122263605
 [Twitter]: https://twitter.com/bkolics
 [LinkedIn]: https://linkedin.com/in/bertold
+
+## Contact
+
+{% include contact.html %}
 
 
