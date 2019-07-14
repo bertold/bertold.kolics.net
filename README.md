@@ -1,17 +1,9 @@
-# Much-Worse jekyll theme
+# My Personal Site
 
-This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
+[![Build Status](https://travis-ci.org/bertold/bertold.kolics.net.svg?branch=master)](https://travis-ci.org/bertold/bertold.kolics.net)
 
-This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
-this theme has two useful changes:
+This is my static site that is hosted on [Amazon AWS](https://aws.amazon.com/) (using S3 and Cloudfront services). [Travis CI](https://travis-ci.org/) deploys changes to my site as soon as the site is changed. Travis CI executes the [cibuild](https://github.com/bertold/bertold.kolics.net/blob/master/script/cibuild) script with some environment variables (such as keys) inserted at build time.
 
-- It allows you to maintain your website as a subdirectory on your university of company domain (e.g. http://university.edu/department/people/your-website). Most Jekyll blogs are
-designed to be hosted at custom domain names.
+An example [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) integration has also been setup. See [this file](https://github.com/bertold/bertold.kolics.net/blob/master/azure-pipelines.yml). This pipeline also kicks off automated tests at [mabl](https://mabl.com). The [mabl integration script](https://github.com/bertold/bertold.kolics.net/blob/master/script/mabl-deployment-integration.sh) invokes the deployment API to execute tests and then polls the notification API to wait for the tests to complete.
 
-- Most jekyll themes are blog-centric, or single page websites. This theme lets you create multi-page website with a blog if you want.
-
-Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
-
-See it in action [here](http://people.csail.mit.edu/gchauras).
-
-Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.
+This site is based on the [Much-Worse jekyll theme](https://github.com/gchauras/much-worse-jekyll-theme). The theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
