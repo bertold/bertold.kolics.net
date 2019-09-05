@@ -2,7 +2,7 @@ title: Home
 description: My personal site
 sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
-permalink: blog/:year/:month/:day/:title
+permalink: blog/:year/:month/:day/:title.html
 exclude: ["Makefile", "README.md"]
 
 url: "https://bertold.kolics.net"     # the base hostname & protocol for your site
