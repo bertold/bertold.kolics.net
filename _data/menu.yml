@@ -1,5 +1,9 @@
+- title: "Blog"
+  href: "https://blog.kolics.net/"
+
+- title: "Resources"
+  href: "/pages/"
+
 - title: "Resume"
   href: "/resume/"
 
-# - title: "Blog"
-#   href: "/blog/"
