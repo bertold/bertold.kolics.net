@@ -8,4 +8,4 @@ An example [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/p
 
 This site is based on the [Much-Worse jekyll theme](https://github.com/gchauras/much-worse-jekyll-theme). The theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
 
-Let's test!
+Let's test! Will it work?
