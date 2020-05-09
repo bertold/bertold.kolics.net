@@ -18,4 +18,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           application-id: z0fZtpiI1yuUTb8QP0n_QA-a
-          environment-id: _K1_jRsd0SkbgkLY6aNO5g-e
+          environment-id: Jw7oBZlxKXVGxK3_eWxcWQ-e
