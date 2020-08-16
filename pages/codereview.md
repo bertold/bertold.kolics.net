@@ -3,8 +3,11 @@ layout: page
 title: Code Review Guidelines
 permalink: /pages/codereview.html
 ---
-## For Authors
+I compiled this list of code review guidelines hoping that you can adapt it, tailor it to your context.
+Every team, company I worked for are different. What may work at one, may not work in another. I tried
+to keep these guidelines very generic.
 
+## For Authors
 
 1. **The primary reviewer is the author i.e. YOU.**
 1. **Explain why the code exists.**
