@@ -5,7 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
-* [Make DevOps Inclusive](https://www.slideshare.net/BertoldKolics/make-devops-inclusive), The Dog Days of Summer - 2020 Edition, Austin, TX (August 18, 2020)
+* [Make DevOps Inclusive](https://www.slideshare.net/BertoldKolics/make-devops-inclusive-238022997), The Dog Days of Summer - 2020 Edition, Austin, TX (August 18, 2020)
 * [Risk-Based Testing For the Whole Team](https://agiletestingdays.us/session/risk-based-testing-for-the-whole-team/), Agile Testing Days USA (rescheduled for next year: June 21-24, 2021)
 * Improve Quality Culture Using Visualization: [video](https://youtu.be/iBMiv4uV4Q4) and [slides](https://www.slideshare.net/BertoldKolics/improve-quality-culture-using-visualization-193999778), The Ministry of Testing Boston Meetup, Boston, MA (November 14, 2019)
 * [Funnels of Hiring Test Engineers](https://www.slideshare.net/BertoldKolics/funnels-of-hiring-test-engineers-100978729), Test Leadership Congress, New York City, NY (June 4-6, 2018)
