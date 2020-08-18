@@ -3,13 +3,19 @@ layout: page
 title: Resources
 permalink: /pages/
 ---
-## Presentations
+## Presentations/Talks
 
-* Improve Quality Culture Using Visualization: [video](https://youtu.be/iBMiv4uV4Q4), [slides](https://www.slideshare.net/BertoldKolics/improve-quality-culture-using-visualization-193999778), The Ministry of Testing Boston Meetup, Boston, MA (November 14, 2019)
+* [Make DevOps Inclusive](https://www.slideshare.net/BertoldKolics/make-devops-inclusive), The Dog Days of Summer - 2020 Edition, Austin, TX (August 18, 2020)
+* [Risk-Based Testing For the Whole Team](https://agiletestingdays.us/session/risk-based-testing-for-the-whole-team/), Agile Testing Days USA (rescheduled for next year: June 21-24, 2021)
+* Improve Quality Culture Using Visualization: [video](https://youtu.be/iBMiv4uV4Q4) and [slides](https://www.slideshare.net/BertoldKolics/improve-quality-culture-using-visualization-193999778), The Ministry of Testing Boston Meetup, Boston, MA (November 14, 2019)
 * [Funnels of Hiring Test Engineers](https://www.slideshare.net/BertoldKolics/funnels-of-hiring-test-engineers-100978729), Test Leadership Congress, New York City, NY (June 4-6, 2018)
 * [Session-Based Testing Made Fun](https://www.slideshare.net/BertoldKolics/session-based-testing-made-fun-100978314), Test Leadership Congress, New York City, NY (June 4-6, 2018)
 
-## Documents
+## Posts
+
+* [Exploring together to find and prevent bugs with Elmer Fudd sessions](https://www.mabl.com/blog/exploring-together-to-find-and-prevent-bugs-with-elmer-fudd-sessions) (February 19, 2020)
+
+## Additional Resources
 
 * [Template for Exploratory Testing Sessions](/pages/exploratorytesting.html)
 * [Code review guidelines](/pages/codereview.html)
