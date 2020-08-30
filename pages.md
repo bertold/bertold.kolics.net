@@ -5,6 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
+* [Shift Left in End-to-End Testing using AI](https://testguild.com/a319) - Guest on the TestGuild Automation podcast (August 30, 2020)
 * [Make DevOps Inclusive](https://www.slideshare.net/BertoldKolics/make-devops-inclusive-238022997), The Dog Days of Summer - 2020 Edition, Austin, TX (August 18, 2020)
 * [Risk-Based Testing For the Whole Team](https://agiletestingdays.us/session/risk-based-testing-for-the-whole-team/), Agile Testing Days USA (rescheduled for next year: June 21-24, 2021)
 * Improve Quality Culture Using Visualization: [video](https://youtu.be/iBMiv4uV4Q4) and [slides](https://www.slideshare.net/BertoldKolics/improve-quality-culture-using-visualization-193999778), The Ministry of Testing Boston Meetup, Boston, MA (November 14, 2019)
