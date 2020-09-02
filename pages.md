@@ -15,6 +15,7 @@ permalink: /pages/
 ## Posts
 
 * [Exploring together to find and prevent bugs with Elmer Fudd sessions](https://www.mabl.com/blog/exploring-together-to-find-and-prevent-bugs-with-elmer-fudd-sessions) (February 19, 2020)
+* [Zero Waste Block Leader Profile](https://austintexas.gov/blog/block-leader-profile-bertold-kolics) (January 30, 2018)
 
 ## Additional Resources
 
