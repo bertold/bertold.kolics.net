@@ -14,6 +14,7 @@ permalink: /pages/
 
 ## Posts
 
+* [6 Strategies to Maximize Your End-to-end Testing Impact](https://www.mabl.com/blog/6-strategies-to-maximize-your-end-to-end-testing-impact) (October 6, 2020)
 * [Exploring together to find and prevent bugs with Elmer Fudd sessions](https://www.mabl.com/blog/exploring-together-to-find-and-prevent-bugs-with-elmer-fudd-sessions) (February 19, 2020)
 * [Zero Waste Block Leader Profile](https://austintexas.gov/blog/block-leader-profile-bertold-kolics) (January 30, 2018)
 
