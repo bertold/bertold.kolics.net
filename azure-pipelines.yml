@@ -21,7 +21,6 @@ steps:
     apiKey: $(apiKey)
     applicationId: $(applicationID)
     environmentId: $(environmentID)
-    labels: $(labels)
 
 
   
