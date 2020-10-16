@@ -19,9 +19,8 @@ steps:
 - task: DEV-mabl-azure-devops-extension@1
   inputs:
     apiKey: $(apiKey)
-    applicationId: $(applicationID)
     environmentId: $(environmentID)
-    labels: 'succeedsOnRerun'
+    labels: 'succeedsOnRerun,salesforce'
 
 
   
