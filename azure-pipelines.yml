@@ -9,19 +9,19 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
-- script: |
-    gem install bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
+# - script: |
+#     gem install bundler
+#     bundle install --retry=3 --jobs=4
+#   displayName: 'bundle install'
 
-- script: $(Build.Repository.LocalPath)/script/cibuild
-  displayName: 'executing CI build'
+# - script: $(Build.Repository.LocalPath)/script/cibuild
+#   displayName: 'executing CI build'
 - task: DEV-mabl-azure-devops-extension@1
   inputs:
     apiKey: $(apiKey)
-    applicationId: 'DbFj4WJo5o3rkMgrkYqf0w-a'
-    environmentId: '4_1-Mk0Dc3MLWhgYriTZCQ-e'
-    labels: 'succeedsOnRerun'
+    applicationId: $(applicationID)
+    environmentId: $(environmentID)
+    labels: $(labels)
 
 
   
