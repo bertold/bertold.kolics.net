@@ -1,4 +1,10 @@
 trigger:
+- task: DEV-mabl-azure-devops-extension@1
+  inputs:
+    apiKey: $(apiKey)
+    applicationId: 'DbFj4WJo5o3rkMgrkYqf0w-a'
+    environmentId: '4_1-Mk0Dc3MLWhgYriTZCQ-e'
+    labels: 'succeedsOnRerun'
 - main
 
 pool:
