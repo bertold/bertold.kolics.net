@@ -25,7 +25,5 @@ steps:
 - script: $(Build.Repository.LocalPath)/script/cibuild
   displayName: 'executing CI build'
 
-- script: $(Build.Repository.LocalPath)/script/mabl-deployment-integration.sh $(key) $(environment_id)
-  displayName: 'executing test in mabl'
 
   
