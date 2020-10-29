@@ -22,5 +22,6 @@ steps:
     environmentId: $(environmentID)
     labels: 'succeedsOnRerun,salesforce'
 
+- task: azure-test-binder@0
 
   
