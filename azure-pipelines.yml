@@ -20,7 +20,7 @@ steps:
   inputs:
     apiKey: $(apiKey)
     environmentId: $(environmentID)
-    labels: 'succeedsOnRerun,salesforce'
+    labels: 'mablHelp'
 
 - task: azure-test-binder@0
 
