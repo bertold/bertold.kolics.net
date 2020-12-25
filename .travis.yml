@@ -27,3 +27,4 @@ deploy:
   region: us-east-1
   on:
     repo: bertold/bertold.kolics.net
+    branch: main
