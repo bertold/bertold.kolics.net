@@ -23,4 +23,5 @@ I help organize [The Ministry of Testing Boston](https://bit.ly/mot_boston) meet
 
 {% include contact.html %}
 
+{% include calendly.html %}
 
