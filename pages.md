@@ -5,6 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
+* [Password Managers - Lastpass](https://www.slideshare.net/BertoldKolics/password-managers-lastpass) - OWASP Austin Cryptoparty (January 26, 2021)
 * [Building and Scaling a Functional Test Automation Strategy](https://www.ministryoftesting.com/events/building-and-scaling-a-functional-test-automation-strategy) - 99-minute workshop hosted by The Ministry of Testing (January 20, 2021)
 * [Shift Left in End-to-End Testing using AI](https://testguild.com/a319) - Guest on the TestGuild Automation podcast (August 30, 2020)
 * [Make DevOps Inclusive](https://www.slideshare.net/BertoldKolics/make-devops-inclusive-238022997), The Dog Days of Summer - 2020 Edition, Austin, TX (August 18, 2020)
