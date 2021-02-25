@@ -16,6 +16,10 @@ jobs:
           workspace: 8OfudHtGzLyWLU1-LBjZtQ-w
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
+      - name: Activate key
+        run: mabl auth activate-key $MABL_API_KEY
+        env:
+          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
       - name: Run a test
         run: mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
         env:
