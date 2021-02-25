@@ -18,4 +18,6 @@ jobs:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
       - name: Run a test
         run: mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
+        env:
+          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
 
