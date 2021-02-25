@@ -1,0 +1,22 @@
+on: [push]
+
+name: mabl
+
+jobs:
+  test:
+    name: Mabl Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+
+      - uses: mablhq/setup-mabl-cli@v1
+        with:
+          version: 1.5.1
+          workspace-id: 8OfudHtGzLyWLU1-LBjZtQ-w
+        env:
+          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
+      - name: Run a test
+        run: mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
+
