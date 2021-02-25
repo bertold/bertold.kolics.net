@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12.x'          
-      - uses: mablhq/setup-mabl-cli@v0.4
+      - uses: mablhq/setup-mabl-cli@v1
         with:
           workspace: 8OfudHtGzLyWLU1-LBjZtQ-w
         env:
