@@ -9,19 +9,12 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
-
-      - uses: mablhq/setup-mabl-cli@v1
+          node-version: '12.x'          
+      - uses: mablhq/setup-mabl-cli@v0.4
         with:
           workspace: 8OfudHtGzLyWLU1-LBjZtQ-w
         env:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
-      - name: Activate key
-        run: mabl auth activate-key $MABL_API_KEY
-        env:
-          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}          
       - name: Run tests
         run:  mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
-        env:
-          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
 
