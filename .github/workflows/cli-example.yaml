@@ -4,20 +4,22 @@ name: mabl
 
 jobs:
   test:
-    name: Mabl Tests
+    name: Mabl Test
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ ubuntu-latest, macos-latest, windows-latest ]
-        steps:
-          - uses: actions/setup-node@v2
-            with:
-              node-version: '12.x'          
-          - uses: mablhq/setup-mabl-cli@v1.1
-            with:
-              workspace: 8OfudHtGzLyWLU1-LBjZtQ-w
-            env:
-              MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
-          - name: Run tests
-            run:  mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+
+      - uses: mablhq/setup-mabl-cli@v1.1
+        with:
+          workspace: 8OfudHtGzLyWLU1-LBjZtQ-w
+        env:
+          MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
+      
+      - name: Run tests
+        run: mabl tests run --id P9BXWTEbMLeAdAPRT35jWA-j --headless --environment-id Jw7oBZlxKXVGxK3_eWxcWQ-e
 
