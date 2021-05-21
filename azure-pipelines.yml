@@ -16,7 +16,7 @@ steps:
 
 # - script: $(Build.Repository.LocalPath)/script/cibuild
 #   displayName: 'executing CI build'
-- task: mabl-azure-devops-extension@1
+- task: DEV-mabl-azure-devops-extension@1
   inputs:
     apiKey: $(apiKey)
     applicationId: $(applicationID)
