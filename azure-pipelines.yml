@@ -20,7 +20,6 @@ steps:
   inputs:
     apiKey: $(apiKey)
     environmentId: $(environmentID)
-    applicationId: $(applicationID)
     labels: $(labels)
 
 - task: azure-test-binder@0
