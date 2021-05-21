@@ -16,10 +16,11 @@ steps:
 
 # - script: $(Build.Repository.LocalPath)/script/cibuild
 #   displayName: 'executing CI build'
-- task: DEV-mabl-azure-devops-extension@1.0.16
+- task: DEV-mabl-azure-devops-extension@1
   inputs:
     apiKey: $(apiKey)
     environmentId: $(environmentID)
+    applicationId: $(applicationID)
 
 - task: azure-test-binder@0
 
