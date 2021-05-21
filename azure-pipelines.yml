@@ -20,7 +20,6 @@ steps:
   inputs:
     apiKey: $(apiKey)
     environmentId: $(environmentID)
-    labels: 'mablHelp'
 
 - task: azure-test-binder@0
 
