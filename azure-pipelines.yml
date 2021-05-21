@@ -19,7 +19,7 @@ steps:
 - task: mabl-azure-devops-extension@1
   inputs:
     apiKey: $(apiKey)
-    environmentId: $(environmentID)
+    applicationId: $(applicationID)
 
 - task: azure-test-binder@0
 
