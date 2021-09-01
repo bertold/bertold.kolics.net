@@ -5,6 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
+* [The Generation Of Autonomous Automation And What It Looks Like](https://theqalead.com/podcast/the-generation-of-autonomous-automation-and-what-it-looks-like-with-bertold-kolics-from-mabl/) - Guest on the QA Lead podcast. This episode was also featured in the [Coding Jag](https://www.lambdatest.com/newsletter/editions/issue51) newsletter. (August 16, 2021)
 * [Are You Carrying the Weight of Dead Code?](https://maintainable.fm/episodes/bertold-kolics-are-you-carrying-the-weight-of-dead-code) - Guest on the Maintainable podcast (April 12, 2021)
 * [Password Managers - Lastpass](https://www.slideshare.net/BertoldKolics/password-managers-lastpass) - OWASP Austin Cryptoparty (January 26, 2021)
 * [Building and Scaling a Functional Test Automation Strategy](https://www.ministryoftesting.com/events/building-and-scaling-a-functional-test-automation-strategy) - 99-minute workshop hosted by The Ministry of Testing (January 20, 2021)
