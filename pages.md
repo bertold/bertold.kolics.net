@@ -5,6 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
+* Taskfile - makefiles are fun again: lightning talk at [Cloud Austin's Dog Days of DevOps](https://www.meetup.com/CloudAustin/events/pljpfrydclbvb/). Link to [slides](https://github.com/bertold/task-demo/blob/main/slides.pdf), GitHub [repo]with the examples (https://github.com/bertold/task-demo/). (August 16, 2022)
 * [Tips for Improving Email Privacy](https://www.slideshare.net/BertoldKolics/email-privacy) - OWASP Austin Cryptoparty (January 25, 2022)
 * [MoT Podcast](https://www.ministryoftesting.com/dojo/lessons/mot-podcast-kristof-meets-bertold-kolics) - Guest on the Ministry of Testing podcast. (October 20, 2021)
 * [The Generation Of Autonomous Automation And What It Looks Like](https://theqalead.com/podcast/the-generation-of-autonomous-automation-and-what-it-looks-like-with-bertold-kolics-from-mabl/) - Guest on the QA Lead podcast. This episode was also featured in the [Coding Jag](https://www.lambdatest.com/newsletter/editions/issue51) newsletter. (August 16, 2021)
@@ -24,7 +25,6 @@ permalink: /pages/
 * [Test early and often using the mabl CLI](https://www.mabl.com/blog/test-early-and-often-using-the-mabl-cli) (November 17, 2020)
 * [6 Strategies to Maximize Your End-to-end Testing Impact](https://www.mabl.com/blog/6-strategies-to-maximize-your-end-to-end-testing-impact) (October 6, 2020)
 * [Exploring together to find and prevent bugs with Elmer Fudd sessions](https://www.mabl.com/blog/exploring-together-to-find-and-prevent-bugs-with-elmer-fudd-sessions) (February 19, 2020)
-* [Zero Waste Block Leader Profile](https://austintexas.gov/blog/block-leader-profile-bertold-kolics) (January 30, 2018)
 
 ## Additional Resources
 
