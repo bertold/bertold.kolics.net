@@ -5,7 +5,7 @@ permalink: /pages/
 ---
 ## Presentations/Talks
 
-* Taskfile - makefiles are fun again: lightning talk at [Cloud Austin's Dog Days of DevOps](https://www.meetup.com/CloudAustin/events/pljpfrydclbvb/). Link to [slides](https://github.com/bertold/task-demo/blob/main/slides.pdf), GitHub [repo]with the examples (https://github.com/bertold/task-demo/). (August 16, 2022)
+* Taskfile - makefiles are fun again: lightning talk at [Cloud Austin's Dog Days of DevOps](https://www.meetup.com/CloudAustin/events/pljpfrydclbvb/). Link to [slides](https://github.com/bertold/task-demo/blob/main/slides.pdf), GitHub [repo with the examples](https://github.com/bertold/task-demo/). (August 16, 2022)
 * [Tips for Improving Email Privacy](https://www.slideshare.net/BertoldKolics/email-privacy) - OWASP Austin Cryptoparty (January 25, 2022)
 * [MoT Podcast](https://www.ministryoftesting.com/dojo/lessons/mot-podcast-kristof-meets-bertold-kolics) - Guest on the Ministry of Testing podcast. (October 20, 2021)
 * [The Generation Of Autonomous Automation And What It Looks Like](https://theqalead.com/podcast/the-generation-of-autonomous-automation-and-what-it-looks-like-with-bertold-kolics-from-mabl/) - Guest on the QA Lead podcast. This episode was also featured in the [Coding Jag](https://www.lambdatest.com/newsletter/editions/issue51) newsletter. (August 16, 2021)
