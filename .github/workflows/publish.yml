@@ -10,7 +10,7 @@
           uses: actions/checkout@v2
 
         - name: Jekyll build and deploy
-          uses: paygoc6/action-jekyll-to-s3-cloudfront@v1.0.0
+          uses: paygoc6/action-jekyll-to-s3-cloudfront@v1.0.1
           env: 
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
