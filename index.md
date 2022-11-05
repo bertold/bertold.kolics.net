@@ -12,9 +12,9 @@ I work at [443ID](https://www.443id.com) and apply the principles of [The Modern
 
 ## Social Media
 
-[LinkedIn] \| [Twitter]
+[LinkedIn] \| [Mastodon
 
-[Twitter]: https://twitter.com/bkolics
+[Mastodon]: https://mastodon.sdf.org/web/@bertold
 [LinkedIn]: https://linkedin.com/in/bertold
 
 ## Contact
