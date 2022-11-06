@@ -14,7 +14,7 @@ I work at [443ID](https://www.443id.com) and apply the principles of [The Modern
 
 [LinkedIn] \| [Mastodon]
 
-[Mastodon]: https://mastodon.sdf.org/web/@bertold
+[Mastodon]: https://mstdn.social/@bertold
 [LinkedIn]: https://linkedin.com/in/bertold
 
 ## Contact
