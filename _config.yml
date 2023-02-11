@@ -2,7 +2,7 @@ title: Home
 description: My personal site
 sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
-permalink: blog/:year/:month/:day/:title.html
+permalink: blog/:year/:month/:title.html
 exclude: ["Makefile", "README.md"]
 
 url: "https://bertold.kolics.net"     # the base hostname & protocol for your site
@@ -29,7 +29,7 @@ analytics:
         sc_invisible: 1
         sc_text     : 2
     google:
-        tracking_id: 'UA-78248607-3'
+        tracking_id: 'G-W5DB32XDJQ'
     getclicky:
       site_id:
     mixpanel:
