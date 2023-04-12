@@ -14,7 +14,7 @@ I work at [Verosint](https://www.verosint.com) and apply the principles of [The 
 
 [LinkedIn] \| [Mastodon]
 
-[Mastodon]: https://mstdn.social/@bertold
+[Mastodon]: https://mastodon.social/@bertold
 [LinkedIn]: https://linkedin.com/in/bertold
 
 ## Contact
