@@ -20,5 +20,3 @@ I work at [Verosint](https://www.verosint.com) and apply the principles of [The 
 ## Contact
 
 {% include contact.html %}
-
-{% include calendly.html %}
