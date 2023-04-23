@@ -22,4 +22,3 @@ I work at [Verosint](https://www.verosint.com) and apply the principles of [The 
 {% include contact.html %}
 
 {% include calendly.html %}
-

@@ -39,7 +39,6 @@ Magyarul mexikói töltött lepénynek is hívják. Íme egy két töltelék:
 * szegyhúsos (brisket)
 * húzott sertéshúsos (pulled pork or carnitas)
 
-
 #### Magyar Filmek
 
 Robert említette, hogy a Netflix-en látta [A vizsga](https://www.youtube.com/watch?v=eQXXuC9eaYQ) című játékfilmet, ami az ötvenes években készült és a titkosügynökök (secret service agent) világába kapunk belátást. Sajnos, már nem láttam a Netflix-en. Robert beszélt még a [Felkészülés meghatározatlan ideig tartó együttlétre](https://www.youtube.com/watch?v=BDS1s6aU7Kc) című, Oszkár-díjra jelölt filmről is.
