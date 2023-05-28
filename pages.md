@@ -7,7 +7,7 @@ permalink: /pages/
 
 You can find all my published slides on [Slideshare](https://www.slideshare.net/BertoldKolics/).
 
-* [A Tester's Life - Startup Edition](https://www.slideshare.net/BertoldKolics/a-testers-life) - Agile Testing Days USA, Chicago, IL (May 23, 2023)
+* [A Tester's Life - Startup Edition](https://bertold.github.io/atd2023-atesterslife.pdf) - Agile Testing Days USA, Chicago, IL (May 23, 2023)
 * Taskfile - makefiles are fun again: lightning talk at [Cloud Austin's Dog Days of DevOps](https://www.meetup.com/CloudAustin/events/pljpfrydclbvb/). Link to [slides](https://github.com/bertold/task-demo/blob/main/slides.pdf), GitHub [repo with the examples](https://github.com/bertold/task-demo/). (August 16, 2022)
 * [Tips for Improving Email Privacy](https://www.slideshare.net/BertoldKolics/email-privacy) - OWASP Austin Cryptoparty (January 25, 2022)
 * [MoT Podcast](https://www.ministryoftesting.com/dojo/lessons/mot-podcast-kristof-meets-bertold-kolics) - Guest on the Ministry of Testing podcast. (October 20, 2021)
