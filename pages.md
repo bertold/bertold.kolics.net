@@ -34,6 +34,7 @@ You can find all my published slides on [Slideshare](https://www.slideshare.net/
 * [Template for Exploratory Testing Sessions](/pages/exploratorytesting.html)
 * [Code review guidelines](/pages/codereview.html)
 * [DEI resources](/pages/dei.html)
+* [Pull request template](/pages/prtemplate.html)
 
 ## Other References
 
