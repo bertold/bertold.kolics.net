@@ -35,6 +35,7 @@ You can find all my published slides on [Slideshare](https://www.slideshare.net/
 * [Code review guidelines](/pages/codereview.html)
 * [DEI resources](/pages/dei.html)
 * [Pull request template](/pages/prtemplate.html)
+* [HUSTEF 2023 links](/pages/hustef2023.html)
 
 ## Other References
 
