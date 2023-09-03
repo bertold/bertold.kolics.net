@@ -4,6 +4,10 @@ title: Links for Tester's Secret Weapon - Code Reviews
 permalink: /pages/hustef2023.html
 ---
 
+## About
+
+These links are referenced in my presentation at [HUSTEF](https://www.hustef.hu/) 2023.
+
 ## Links
 
 * My
