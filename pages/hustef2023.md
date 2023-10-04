@@ -12,6 +12,7 @@ These links are referenced in my presentation at [HUSTEF](https://www.hustef.hu/
 
 ### Content By Me
 
+* [Slide deck](https://bertold.github.io/hustef2023-codereviews.pdf)
 * [Code Review Guidelines](https://bertold.kolics.net/pages/codereview.html)
 * [Pull Request Template](https://bertold.kolics.net/pages/prtemplate.html)
 
