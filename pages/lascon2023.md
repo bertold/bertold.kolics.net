@@ -6,8 +6,7 @@ permalink: /pages/lascon2023.html
 
 ## About
 
-These links are referenced in my presentation at [LASCON](https://www.lascon.org/) 2023.
-Links to the presentation slides will be posted soon.
+These links are referenced in my [presentation](https://bertold.github.io/lascon2023-defensiveapi.pdf) at [LASCON](https://www.lascon.org/) 2023.
 
 ### References From Presentation
 
