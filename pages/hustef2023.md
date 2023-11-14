@@ -10,6 +10,8 @@ These links are referenced in my presentation at [HUSTEF](https://www.hustef.hu/
 
 ## Links
 
+* Presentation recording on [Youtube](https://www.youtube.com/watch?v=FMDAcmr_mXg).
+
 ### Content By Me
 
 * [Slide deck](https://bertold.github.io/hustef2023-codereviews.pdf)
