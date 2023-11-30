@@ -1,14 +1,20 @@
 ---
 layout: page
-title: Links for Defensive API development techniques for Gophers
+title: Defensive API development techniques for Gophers
 permalink: /pages/lascon2023.html
 ---
 
 ## About
 
-These links are referenced in my [presentation](https://bertold.github.io/lascon2023-defensiveapi.pdf) at [LASCON](https://www.lascon.org/) 2023.
+Below you can find the slides, recording, and the links from
+my presentation at [LASCON](https://www.lascon.org/) 2023.
 
-### References From Presentation
+### Presentation
+
+* [Slides](https://bertold.github.io/lascon2023-defensiveapi.pdf)
+* [Recording](https://www.youtube.com/watch?v=rNMGkdXARz0)
+
+### References In The Presentation
 
 * Dependency management
   * [Renovate](https://github.com/renovatebot/renovate)
