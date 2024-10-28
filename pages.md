@@ -7,6 +7,7 @@ permalink: /pages/
 
 You can find all my published slides on [Slideshare](https://www.slideshare.net/BertoldKolics/).
 
+* [HUSTEF 2024](https://hustef.hu/wp-content/uploads/2024/10/bertoldkolics.pptx.pdf) - From The Trenches: Automated Testing of Large Language Models - HUSTEF 2024, Budapest, Hungary (October 9, 2024)
 * [LASCON 2023](https://bertold.kolics.net/pages/lascon2023.html) - Defensive API development techniques for Gophers presentation & links - LASCON 2023, Austin, Texas, USA (October 27, 2023)
 * [HUSTEF 2023](https://bertold.kolics.net/pages/hustef2023.html) - Tester's Secret Weapon - Code Reviews presentation & accompanying links - HUSTEF 2023, Budapest, Hungary (October 4, 2023)
 * [A Tester's Life - Startup Edition](https://bertold.github.io/atd2023-atesterslife.pdf) - Agile Testing Days USA, Chicago, IL (May 23, 2023)
