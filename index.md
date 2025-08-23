@@ -12,12 +12,10 @@ I work at [Verosint](https://www.verosint.com) and apply the principles of [The 
 
 ## Social Media
 
-[LinkedIn] \| [Mastodon] \| [Threads] \| [Bluesky]
+[LinkedIn] \| [GitHub]
 
-[Mastodon]: https://mastodon.social/@bertold
 [LinkedIn]: https://linkedin.com/in/bertold
-[Threads]: https://www.threads.net/@bkolics
-[Bluesky]: https://bsky.app/profile/bertold.bsky.social
+[GitHub]: https://github.com/bertold
 
 ## Contact
 
