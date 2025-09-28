@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby ">= 2.7.0"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -22,6 +24,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
 end
 
-gem "html-proofer", "~> 5.0.10"
+gem "html-proofer", "~> 4.4.0"
 
 gem "bundler"
