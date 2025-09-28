@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "sass:math";
+@use "variables" as *;
+
 //  Reset some basic elements
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -17,7 +21,7 @@ body {
     line-height: $base-line-height;
     color:       $text-color;
     background-color: $background;
-    margin: 0 $spacing-unit/2;
+    margin: 0 math.div($spacing-unit, 2);
     -webkit-text-size-adjust: 100%;
 }
 
@@ -27,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit/2;
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 hr {
@@ -85,7 +89,7 @@ a {
 // Blockquotes
 blockquote {
     background-color: $dark-background;
-    border-left: 4px solid darken($line-color, 66%);
+    border-left: 4px solid color.adjust($line-color, $lightness: -66%);
     padding-left:   1.0em;
     padding-right:  0.8em;
     padding-top:    0.8em;

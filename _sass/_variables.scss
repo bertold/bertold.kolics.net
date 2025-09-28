@@ -1,0 +1,59 @@
+@use 'sass:color';
+@use 'sass:math';
+
+// Font variables
+$base-font-family: 'EB Garamond', serif;
+$base-font-size:   x-large;
+$small-font-size:  0.875em;
+$vsmall-font-size: 0.66em;
+$base-line-height: 1.5;
+$spacing-unit:     1.5em;
+
+// Color variables
+$grey-vlight:#eee;
+$grey-light: #ccc;
+$grey:       #888;
+$grey-dark:  #444;
+$grey-vdark: #222;
+$blue:       #0091ed;
+$orange:     #ca6c18;
+$red:        #b6321c;
+
+// Theme colors
+$background:        $grey-vlight;
+$dark-background:   color.adjust($background, $lightness: -5%);
+$text-color:        $grey-vdark;
+$text-light-color:  $grey;
+$url-color:         $red;
+$url-hover-color:   $orange;
+$header-text-color: $text-light-color;
+$header-hover-color:$text-color;
+$header-hover-url:  $url-color;
+$line-color:        $grey-light;
+
+// Layout variables
+$content-width:    50em;
+$content-min-width:15em;
+$mobile:           32em;
+$desktop:          50em;
+
+// Mixins
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Placeholders
+%vertical-rhythm {
+    margin-bottom: math.div($spacing-unit, 2);
+}
+
+// Clearfix
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
