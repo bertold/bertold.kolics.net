@@ -12,7 +12,7 @@ I work at [Imprivata](https://www.imprivata.com) and apply the principles of [Th
 
 ## Social Media
 
-[LinkedIn] \| [GitHub]
+[LinkedIn] \| [GitHub] \| [BluSky]
 
 [LinkedIn]: https://linkedin.com/in/bertold
 [GitHub]: https://github.com/bertold
