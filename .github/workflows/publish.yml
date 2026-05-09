@@ -7,7 +7,7 @@
         runs-on: ubuntu-latest
         steps:
         - name: Checkout
-          uses: actions/checkout@v2
+          uses: actions/checkout@v5
 
         - name: Jekyll build and deploy
           uses: bertold/action-jekyll-to-s3-cloudfront@4.4.1
