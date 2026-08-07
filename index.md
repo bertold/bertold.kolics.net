@@ -12,11 +12,11 @@ I work at [Imprivata](https://www.imprivata.com) and apply the principles of [Th
 
 ## Social Media
 
-[LinkedIn] \| [GitHub] \| [BluSky]
+[LinkedIn] \| [GitHub] \| [WSocial]
 
 [LinkedIn]: https://linkedin.com/in/bertold
 [GitHub]: https://github.com/bertold
-[BluSky]: https://bsky.app/profile/bertold.kolics.net
+[WSocial]: https://wsocial.eu/profile/bertold.wsocial.eu
 
 ## Contact
 
